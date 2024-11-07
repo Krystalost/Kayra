@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="HTML Forms">
+    <meta name="keywords" content="HTML, Forms, HTML Forms">
+    <meta name="description" content="HTML Forms">
+    <link rel="icon" href="Images/html5.ico" type="image/x-icon">
+
+    <title>
+        HTML Forms
+    </title>
+
+</head>
+
+<body>
+
+    <h1>
+        HTML Forms
+    </h1>
+
+    <hr>
+
+    <br>
+
+    <!-- <form>: Groups form elements to collect user input data. -->
+
+    <form action="/Portfolio/HTML/HTML.html">
+
+        <div>
+
+            <!-- <label>: Defines a label for an input element to improve accessibility. -->
+
+            <label for="name">
+                Name
+            </label>
+
+            <!-- <input>: Creates a field where users can enter data. -->
+
+            <input type="text" id="name" required placeholder="Required">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="surname">
+                Surname
+            </label>
+
+            <input type="text" id="surname">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="password">
+                Password
+            </label>
+
+            <input type="password" id="password">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <p>
+                Choose your programming language:
+            </p>
+
+            <input type="radio" id="html" name="Language">
+
+            <label for="html">
+                HTML
+            </label>
+
+            <input type="radio" id="css" name="Language">
+
+            <label for="css">
+                CSS
+            </label>
+
+            <input type="radio" id="javascript" name="Language">
+
+            <label for="javascript">
+                Javascript
+            </label>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <p>
+                Which programming languages do you want to learn?
+            </p>
+
+            <input type="checkbox" id="html2">
+
+            <label for="html2">
+                HTML
+            </label>
+
+            <input type="checkbox" id="css2">
+
+            <label for="css2">
+                CSS
+            </label>
+
+            <input type="checkbox" id="javascript2">
+
+            <label for="javascript2">
+                Javascript
+            </label>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="developer">
+                Choose your developer type:
+            </label>
+
+            <!-- <select>: Provides a dropdown list for users to choose an option. -->
+
+            <select id="developer">
+
+                <!-- <option>: Represents an individual choice in a select dropdown. -->
+
+                <option value="Front">
+                    Front-End
+                </option>
+
+                <option value="Back">
+                    Back-End
+                </option>
+
+                <option value="Full">
+                    Full-Stack
+                </option>
+
+            </select>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="Email">
+                E-Mail:
+            </label>
+
+            <input type="email" id="Email" placeholder="Optional">
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="birthday">
+                Birthday:
+            </label>
+
+            <input type="date" id="birthday" name="birthday">
+
+        </div>
+
+        <br>
+
+        <!-- <button>: Creates a clickable button for form submission or other actions. -->
+
+        <button type="reset" title="If you click, it resets your choices">
+            Clear
+        </button>
+
+        <input type="submit" value="Send" title="Click to return to the previous page">
+
+    </form>
+
+</body>
+
+</html>
