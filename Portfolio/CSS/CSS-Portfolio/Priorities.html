@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="CSS Priorities">
+    <meta name="keywords" content="CSS, Priorities, CSS Priorities">
+    <meta name="description" content="CSS Priorities">
+    <link rel="icon" href="Images/css.ico" type="image/x-icon">
+
+    <title>
+        CSS Priorities
+    </title>
+
+    <style>
+        .black {
+            background-color: black;
+            text-align: center;
+        }
+
+        #orange {
+            color: #F06529;
+        }
+
+        #blue {
+            color: #33A9DC;
+        }
+
+        #yellow {
+            color: #F7DF1E;
+        }
+    </style>
+
+</head>
+
+<!-- In CSS, inline styles have the highest priority, followed by ID selectors, then class selectors, and finally tag selectors, while browser defaults are overridden by any custom styles, unless !important is used, which can override all other rules. -->
+
+<body>
+
+    <h1>
+        CSS Priorities
+    </h1>
+
+    <hr>
+
+    <main>
+
+        <section class="black" id="orange" style="color: red;">
+
+            <h2>
+                HTML
+            </h2>
+
+        </section>
+
+        <section class="black" id="blue" style="background-color: darkgray;">
+
+            <h2>
+                CSS
+            </h2>
+
+        </section>
+
+        <section class="black" id="yellow" style="color: black; background-color: orangered">
+
+            <h2>
+                JavaScript
+            </h2>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <nav>
+
+        <ul>
+
+            <li>
+
+                <a href="../CSS">
+
+                    <p style="font-size: 32px; font-weight: 700;">
+                        Go back to the CSS Portfolio
+                    </p>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+</body>
+
+</html>
