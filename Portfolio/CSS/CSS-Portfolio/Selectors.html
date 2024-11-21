@@ -5,30 +5,49 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="CSS Inline">
-    <meta name="keywords" content="CSS, Inline, CSS Inline">
-    <meta name="description" content="CSS Inline">
+    <meta name="title" content="CSS Selectors">
+    <meta name="keywords" content="CSS, Selectors, CSS Selectors">
+    <meta name="description" content="CSS Selectors">
     <link rel="icon" href="Images/css.ico" type="image/x-icon">
 
     <title>
-        CSS Inline
+        CSS Selectors
     </title>
+
+    <style>
+        .black {
+            background-color: black;
+            text-align: center;
+        }
+
+        #orange {
+            color: #F06529;
+        }
+
+        #blue {
+            color: #33A9DC;
+        }
+
+        #yellow {
+            color: #F7DF1E;
+        }
+    </style>
 
 </head>
 
-<!-- Inline CSS styles individual elements directly within HTML tags, unlike internal and external CSS, which centralize styling for easier maintenance and scalability across multiple elements or pages. -->
+<!-- In CSS, class can be applied to multiple elements, while id is unique to a single element. To style them, you use a dot (.className) for classes and a hash (#idName) for IDs. -->
 
 <body>
 
     <h1>
-        CSS Inline
+        CSS Selectors
     </h1>
 
     <hr>
 
     <main>
 
-        <section style="background-color: black; color: #F06529;">
+        <section class="black" id="orange">
 
             <h2>
                 HTML
@@ -36,7 +55,7 @@
 
         </section>
 
-        <section style="background-color: black; color: #33A9DC;">
+        <section class="black" id="blue">
 
             <h2>
                 CSS
@@ -44,7 +63,7 @@
 
         </section>
 
-        <section style="background-color: black; color: #F7DF1E;">
+        <section class="black" id="yellow">
 
             <h2>
                 JavaScript
