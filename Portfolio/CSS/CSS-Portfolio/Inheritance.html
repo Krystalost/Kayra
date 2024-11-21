@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="CSS Priorities">
+    <meta name="keywords" content="CSS, Priorities, CSS Priorities">
+    <meta name="description" content="CSS Priorities">
+    <link rel="icon" href="Images/css.ico" type="image/x-icon">
+
+    <title>
+        CSS Priorities
+    </title>
+
+    <style>
+        .black {
+            background-color: black;
+            text-align: center;
+        }
+
+        #orange {
+            color: #F06529;
+        }
+
+        #blue {
+            color: #33A9DC;
+        }
+
+        #yellow {
+            color: #F7DF1E;
+        }
+
+        li {
+            color: initial;
+        }
+    </style>
+
+</head>
+
+<!-- In CSS, initial resets a property to its default browser value, while inherit makes a property take the value of its parent element. -->
+
+<body>
+
+    <h1>
+        CSS Priorities
+    </h1>
+
+    <hr>
+
+    <main>
+
+        <section class="black" id="orange" style="background-color: wheat;">
+
+            <h2>
+                HTML
+            </h2>
+
+            <ul>
+
+                <li style="color: green;">
+
+                    <p style="color: inherit;">
+                        HTML Basics
+                    </p>
+
+                </li>
+
+                <li>
+
+                    <p>
+                        About HTML
+                    </p>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="black" id="blue" style="background-color: initial;">
+
+            <h2>
+                CSS
+            </h2>
+
+        </section>
+
+        <section class="black" id="yellow">
+
+            <h2>
+                JavaScript
+            </h2>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <nav>
+
+        <ul>
+
+            <li>
+
+                <a href="../CSS">
+
+                    <p style="font-size: 32px; font-weight: 700;">
+                        Go back to the CSS Portfolio
+                    </p>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+</body>
+
+</html>
