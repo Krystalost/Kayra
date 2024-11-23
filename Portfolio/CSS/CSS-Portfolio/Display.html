@@ -6,60 +6,102 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="CSS Defaults">
-    <meta name="keywords" content="CSS, Defaults, CSS Defaults">
-    <meta name="description" content="CSS Defaults">
+    <meta name="title" content="CSS Display">
+    <meta name="keywords" content="CSS, Display, CSS Display">
+    <meta name="description" content="CSS Display">
     <link rel="icon" href="Images/css.ico" type="image/x-icon">
 
     <title>
-        Docuent
+        CSS Display
     </title>
 
     <style>
         .box {
-            height: 60px;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
         }
 
         #a {
-            background-color: red;
+            background-color: rgb(252, 81, 18);
         }
 
         #b {
-            background-color: blue;
+            background-color: rgb(47, 76, 241);
         }
 
         #c {
-            background-color: gold;
+            background-color: rgb(255, 255, 0);
+        }
+
+        .link {
+            padding: 20px;
+            display: block;
+            background-color: black;
+            width: 75px;
+            height: 50px;
         }
     </style>
 
 </head>
 
+<!-- CSS Display: It controls how an element is shown on the page (block, inline, hidden, etc.). -->
+
 <body>
+
+    <h1>
+        CSS Display
+    </h1>
+
+    <hr>
 
     <div id="all">
 
         <div class="box" id="a">
-
+            HTML
         </div>
 
         <div class="box" id="b">
-
+            CSS
         </div>
 
         <div class="box" id="c">
-
+            JavaScript
         </div>
 
     </div>
 
+    <br>
+
     <div>
 
-        <a href="">HTML</a>
-        <a href="">CSS</a>
-        <a href="">JavaScript</a>
+        <a href="" class="link">HTML</a>
+        <a href="" class="link">CSS</a>
+        <a href="" class="link">JavaScript</a>
 
     </div>
+
+    <hr>
+
+    <nav>
+
+        <ul>
+
+            <li>
+
+                <a href="../CSS">
+
+                    <p style="font-size: 32px; font-weight: 700;">
+                        Go back to the CSS Portfolio
+                    </p>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
 
 </body>
 
