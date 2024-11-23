@@ -5,13 +5,13 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="CSS Box Sizing">
-    <meta name="keywords" content="CSS, Box Sizing, CSS Box Sizing">
-    <meta name="description" content="CSS Box Sizing">
+    <meta name="title" content="CSS Box Calc">
+    <meta name="keywords" content="CSS, Box Calc, CSS Box Calc">
+    <meta name="description" content="CSS Box Calc">
     <link rel="icon" href="Images/css.ico" type="image/x-icon">
 
     <title>
-        CSS Box Sizing
+        CSS Calc
     </title>
 
     <style>
@@ -19,45 +19,64 @@
             box-sizing: border-box;
         }
 
+        body {
+            margin: 0;
+        }
+
         #a {
-            background-color: blue;
-            height: 100px;
-            width: 33%;
+            background-color: blue;;
             padding: 10px;
-            border: 5px solid red;
         }
 
         #b {
             background-color: orangered;
-            width: 50%;
+            padding: 10px;
+        }
+
+        .main {
+            background-color: yellow;
+        }
+
+        .mainn {
+            display: inline-block;
+            width: calc(100% - 44px);
+            text-align: right;
         }
     </style>
 
 </head>
 
-<!-- In CSS, box-sizing: border-box; ensures that the width and height of an element include its content, padding, and border. This means the total size of the element does not exceed the specified dimensions -->
+<!-- CSS calc(): It allows you to do math with sizes, like adding or subtracting, to make layouts more flexible. -->
 
 <body>
 
     <h1 style="margin: 16px;">
-        CSS Box Sizing
+        CSS Calc
     </h1>
 
     <hr>
 
-    <header id="link">
+    <header class="main" id="link">
 
         <a href="">
-            HTML
+            Home
         </a>
 
-        <a href="">
-            CSS
-        </a>
+        <nav class="mainn">
 
-        <a href="">
-            JavaScript
-        </a>
+            <a href="">
+                HTML
+            </a>
+
+            <a href="">
+                CSS
+            </a>
+
+            <a href="">
+                JavaScript
+            </a>
+
+        </nav>
 
     </header>
 
